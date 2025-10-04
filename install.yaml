@@ -5,6 +5,3 @@ project_files:
   - commands/web/bunx
   - web-build/Dockerfile.bun
   - bun/
-
-post_install_actions:
-  - docker run --rm -v ${DDEV_APPROOT}:/app python:3-alpine python /app/.ddev/bun/package_json_updater.py
