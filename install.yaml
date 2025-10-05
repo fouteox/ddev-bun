@@ -4,4 +4,3 @@ project_files:
   - commands/web/bun
   - commands/web/bunx
   - web-build/Dockerfile.bun
-  - bun/
